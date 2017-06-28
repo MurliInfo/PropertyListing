@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039E51FC1F013A4900EFDC92 /* ImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039E51FB1F013A4900EFDC92 /* ImagePreviewController.swift */; };
+		0C4268911EFCE12000649CCC /* SLPLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4268901EFCE12000649CCC /* SLPLand.swift */; };
+		0C58622B1EE80EC5004A7BC6 /* SLPShortListingBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C58622A1EE80EC5004A7BC6 /* SLPShortListingBy.swift */; };
+		0C70B1671EF3BBAA003E9AD2 /* UIViewController+HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C70B1661EF3BBAA003E9AD2 /* UIViewController+HUD.swift */; };
+		0C70B1691EF3BF5B003E9AD2 /* SLPLoginProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C70B1681EF3BF5B003E9AD2 /* SLPLoginProfile.swift */; };
+		0C70B16B1EF3D7D2003E9AD2 /* SLPEditLoginProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C70B16A1EF3D7D2003E9AD2 /* SLPEditLoginProfile.swift */; };
+		0C712B351EE5925D00B7152F /* SLPDetailProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C712B341EE5925D00B7152F /* SLPDetailProperty.swift */; };
+		0C7353651EE6C8E00025A8DD /* SLPAllWebservicesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7353641EE6C8E00025A8DD /* SLPAllWebservicesList.swift */; };
+		0C7604D41EFA7CC6009C0AFC /* SLPSuburb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7604D31EFA7CC6009C0AFC /* SLPSuburb.swift */; };
+		0C7604D61EFA8ACC009C0AFC /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7604D51EFA8ACC009C0AFC /* CollectionCell.swift */; };
+		0C7A8C8C1EF2503700717BB7 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A8C8B1EF2503700717BB7 /* MainTabBar.swift */; };
+		0C8561051EF0F8B200BE9A44 /* SLPViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8561041EF0F8B200BE9A44 /* SLPViewProfile.swift */; };
+		0C8663771EE12AE6007347C3 /* SLPPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8663761EE12AE6007347C3 /* SLPPrice.swift */; };
+		0C8663791EE17CDE007347C3 /* SLPPropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8663781EE17CDE007347C3 /* SLPPropertyType.swift */; };
+		0C86637F1EE19900007347C3 /* SLPInspectionsSecheduled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C86637E1EE19900007347C3 /* SLPInspectionsSecheduled.swift */; };
+		0C8663811EE19D2C007347C3 /* SLPBedrooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8663801EE19D2C007347C3 /* SLPBedrooms.swift */; };
+		0CAC12BF1EEFA92D00078755 /* AdvanceSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC12BE1EEFA92D00078755 /* AdvanceSearchModel.swift */; };
+		0CAC12C11EF0202700078755 /* MORE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAC12C01EF0202700078755 /* MORE.storyboard */; };
+		0CAC12C31EF021BF00078755 /* SLPFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC12C21EF021BF00078755 /* SLPFeedback.swift */; };
+		0CB8A8321F02655D00461008 /* SLPWebdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB8A8311F02655D00461008 /* SLPWebdata.swift */; };
+		0CB8A8341F027AA500461008 /* SLPPropertyListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB8A8331F027AA500461008 /* SLPPropertyListing.swift */; };
+		0CC3983F1F0113A700ED747F /* JsonSerializerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1326D1EF3F42900DC16D7 /* JsonSerializerSwift.framework */; };
+		0CC398401F0113A700ED747F /* JsonSerializerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1326D1EF3F42900DC16D7 /* JsonSerializerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0CC9BC201EEE53BA00CB1B67 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC9BC1F1EEE53BA00CB1B67 /* MapKit.framework */; };
+		0CCC1B1B1EE5196F0025C72C /* SLPGarage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1B1A1EE5196F0025C72C /* SLPGarage.swift */; };
+		0CCC1B1D1EE51CFF0025C72C /* SLPBathrooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1B1C1EE51CFF0025C72C /* SLPBathrooms.swift */; };
+		0CCC1B1F1EE51F0B0025C72C /* SEARCH.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC1B1E1EE51F0B0025C72C /* SEARCH.storyboard */; };
+		0CD1326E1EF3F42900DC16D7 /* JsonSerializerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1326D1EF3F42900DC16D7 /* JsonSerializerSwift.framework */; };
+		0CD132711EF3F43900DC16D7 /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD132701EF3F43900DC16D7 /* JsonSerializer.swift */; };
+		0CD98BC31EE032D900CBB3EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BC21EE032D900CBB3EA /* AppDelegate.swift */; };
+		0CD98BC51EE032D900CBB3EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BC41EE032D900CBB3EA /* ViewController.swift */; };
+		0CD98BC81EE032D900CBB3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD98BC61EE032D900CBB3EA /* Main.storyboard */; };
+		0CD98BCA1EE032D900CBB3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD98BC91EE032D900CBB3EA /* Assets.xcassets */; };
+		0CD98BCD1EE032D900CBB3EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD98BCB1EE032D900CBB3EA /* LaunchScreen.storyboard */; };
+		0CD98BD91EE0390400CBB3EA /* SLPSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BD81EE0390400CBB3EA /* SLPSearch.swift */; };
+		0CD98BDB1EE0398000CBB3EA /* SLPShortlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BDA1EE0398000CBB3EA /* SLPShortlist.swift */; };
+		0CD98BDD1EE039BF00CBB3EA /* SLPSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BDC1EE039BF00CBB3EA /* SLPSaved.swift */; };
+		0CD98BDF1EE039ED00CBB3EA /* SLPMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BDE1EE039ED00CBB3EA /* SLPMore.swift */; };
+		0CD98BE11EE03E8A00CBB3EA /* SLPAdvanceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BE01EE03E8A00CBB3EA /* SLPAdvanceSearch.swift */; };
+		0CD98BE41EE0431C00CBB3EA /* SLPCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BE31EE0431C00CBB3EA /* SLPCustomCell.swift */; };
+		0CD98BE61EE045B200CBB3EA /* SLPStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BE51EE045B200CBB3EA /* SLPStructure.swift */; };
+		0CD98BE81EE0465400CBB3EA /* SLPAllWebservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BE71EE0465400CBB3EA /* SLPAllWebservices.swift */; };
+		0CD98BEA1EE048FA00CBB3EA /* GlobalMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD98BE91EE048FA00CBB3EA /* GlobalMethods.swift */; };
+		0CE22FA11EFBF8820052BF0D /* SLPCustomeCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE22FA01EFBF8820052BF0D /* SLPCustomeCell1.swift */; };
+		0CF950DB1EF40DD00035B14B /* SLPUserChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF950DA1EF40DD00035B14B /* SLPUserChangePassword.swift */; };
+		26CF945EBAA4DA98D499C6FF /* Pods_SLP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD03978EF6A694F20CEC952E /* Pods_SLP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CC398411F0113A800ED747F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0CC398401F0113A700ED747F /* JsonSerializerSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		039E51FB1F013A4900EFDC92 /* ImagePreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePreviewController.swift; path = Classes/ImagePreviewController.swift; sourceTree = "<group>"; };
+		0C0EC0FE1EE560A900CC0AB9 /* SLP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLP-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C4268901EFCE12000649CCC /* SLPLand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPLand.swift; path = Serarch/SLPLand.swift; sourceTree = "<group>"; };
+		0C58622A1EE80EC5004A7BC6 /* SLPShortListingBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPShortListingBy.swift; path = Serarch/SLPShortListingBy.swift; sourceTree = "<group>"; };
+		0C70B1661EF3BBAA003E9AD2 /* UIViewController+HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+HUD.swift"; sourceTree = "<group>"; };
+		0C70B1681EF3BF5B003E9AD2 /* SLPLoginProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPLoginProfile.swift; path = More/SLPLoginProfile.swift; sourceTree = "<group>"; };
+		0C70B16A1EF3D7D2003E9AD2 /* SLPEditLoginProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPEditLoginProfile.swift; path = More/SLPEditLoginProfile.swift; sourceTree = "<group>"; };
+		0C712B341EE5925D00B7152F /* SLPDetailProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPDetailProperty.swift; path = Serarch/SLPDetailProperty.swift; sourceTree = "<group>"; };
+		0C7353641EE6C8E00025A8DD /* SLPAllWebservicesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPAllWebservicesList.swift; path = Classes/SLPAllWebservicesList.swift; sourceTree = "<group>"; };
+		0C7604D31EFA7CC6009C0AFC /* SLPSuburb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPSuburb.swift; path = Serarch/SLPSuburb.swift; sourceTree = "<group>"; };
+		0C7604D51EFA8ACC009C0AFC /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		0C7A8C8B1EF2503700717BB7 /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBar.swift; path = Serarch/MainTabBar.swift; sourceTree = "<group>"; };
+		0C8561041EF0F8B200BE9A44 /* SLPViewProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPViewProfile.swift; path = Serarch/SLPViewProfile.swift; sourceTree = "<group>"; };
+		0C8663761EE12AE6007347C3 /* SLPPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPPrice.swift; path = Serarch/SLPPrice.swift; sourceTree = "<group>"; };
+		0C8663781EE17CDE007347C3 /* SLPPropertyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPPropertyType.swift; path = Serarch/SLPPropertyType.swift; sourceTree = "<group>"; };
+		0C86637E1EE19900007347C3 /* SLPInspectionsSecheduled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPInspectionsSecheduled.swift; path = Serarch/SLPInspectionsSecheduled.swift; sourceTree = "<group>"; };
+		0C8663801EE19D2C007347C3 /* SLPBedrooms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPBedrooms.swift; path = Serarch/SLPBedrooms.swift; sourceTree = "<group>"; };
+		0CAC12BE1EEFA92D00078755 /* AdvanceSearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdvanceSearchModel.swift; path = Classes/AdvanceSearchModel.swift; sourceTree = "<group>"; };
+		0CAC12C01EF0202700078755 /* MORE.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MORE.storyboard; path = More/MORE.storyboard; sourceTree = "<group>"; };
+		0CAC12C21EF021BF00078755 /* SLPFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPFeedback.swift; path = More/SLPFeedback.swift; sourceTree = "<group>"; };
+		0CB8A8311F02655D00461008 /* SLPWebdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPWebdata.swift; path = Serarch/SLPWebdata.swift; sourceTree = "<group>"; };
+		0CB8A8331F027AA500461008 /* SLPPropertyListing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPPropertyListing.swift; path = Serarch/SLPPropertyListing.swift; sourceTree = "<group>"; };
+		0CC9BC1F1EEE53BA00CB1B67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0CCC1B1A1EE5196F0025C72C /* SLPGarage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPGarage.swift; path = Serarch/SLPGarage.swift; sourceTree = "<group>"; };
+		0CCC1B1C1EE51CFF0025C72C /* SLPBathrooms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPBathrooms.swift; path = Serarch/SLPBathrooms.swift; sourceTree = "<group>"; };
+		0CCC1B1E1EE51F0B0025C72C /* SEARCH.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SEARCH.storyboard; path = Serarch/SEARCH.storyboard; sourceTree = "<group>"; };
+		0CD1326D1EF3F42900DC16D7 /* JsonSerializerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JsonSerializerSwift.framework; sourceTree = "<group>"; };
+		0CD1326F1EF3F43900DC16D7 /* JsonSerializerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonSerializerSwift.h; sourceTree = "<group>"; };
+		0CD132701EF3F43900DC16D7 /* JsonSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonSerializer.swift; sourceTree = "<group>"; };
+		0CD98BBF1EE032D900CBB3EA /* SLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD98BC21EE032D900CBB3EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CD98BC41EE032D900CBB3EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CD98BC71EE032D900CBB3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CD98BC91EE032D900CBB3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CD98BCC1EE032D900CBB3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CD98BCE1EE032D900CBB3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD98BD81EE0390400CBB3EA /* SLPSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPSearch.swift; path = Serarch/SLPSearch.swift; sourceTree = "<group>"; };
+		0CD98BDA1EE0398000CBB3EA /* SLPShortlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPShortlist.swift; path = Shortlist/SLPShortlist.swift; sourceTree = "<group>"; };
+		0CD98BDC1EE039BF00CBB3EA /* SLPSaved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPSaved.swift; path = Saved/SLPSaved.swift; sourceTree = "<group>"; };
+		0CD98BDE1EE039ED00CBB3EA /* SLPMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPMore.swift; path = More/SLPMore.swift; sourceTree = "<group>"; };
+		0CD98BE01EE03E8A00CBB3EA /* SLPAdvanceSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPAdvanceSearch.swift; path = Serarch/SLPAdvanceSearch.swift; sourceTree = "<group>"; };
+		0CD98BE31EE0431C00CBB3EA /* SLPCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPCustomCell.swift; path = Classes/SLPCustomCell.swift; sourceTree = "<group>"; };
+		0CD98BE51EE045B200CBB3EA /* SLPStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPStructure.swift; path = Classes/SLPStructure.swift; sourceTree = "<group>"; };
+		0CD98BE71EE0465400CBB3EA /* SLPAllWebservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPAllWebservices.swift; path = Classes/SLPAllWebservices.swift; sourceTree = "<group>"; };
+		0CD98BE91EE048FA00CBB3EA /* GlobalMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalMethods.swift; path = Classes/GlobalMethods.swift; sourceTree = "<group>"; };
+		0CE22FA01EFBF8820052BF0D /* SLPCustomeCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPCustomeCell1.swift; path = Classes/SLPCustomeCell1.swift; sourceTree = "<group>"; };
+		0CF950DA1EF40DD00035B14B /* SLPUserChangePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLPUserChangePassword.swift; path = More/SLPUserChangePassword.swift; sourceTree = "<group>"; };
+		C02DFF7F7F2DB0E2199C381A /* Pods-SLP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLP.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLP/Pods-SLP.release.xcconfig"; sourceTree = "<group>"; };
+		CD03978EF6A694F20CEC952E /* Pods_SLP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB8DBE3F3E1B5CEEFBAF1ED /* Pods-SLP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLP/Pods-SLP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CD98BBC1EE032D900CBB3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC9BC201EEE53BA00CB1B67 /* MapKit.framework in Frameworks */,
+				26CF945EBAA4DA98D499C6FF /* Pods_SLP.framework in Frameworks */,
+				0CC3983F1F0113A700ED747F /* JsonSerializerSwift.framework in Frameworks */,
+				0CD1326E1EF3F42900DC16D7 /* JsonSerializerSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD98BB61EE032D800CBB3EA = {
+			isa = PBXGroup;
+			children = (
+				0C70B1661EF3BBAA003E9AD2 /* UIViewController+HUD.swift */,
+				0CD1326F1EF3F43900DC16D7 /* JsonSerializerSwift.h */,
+				0CD132701EF3F43900DC16D7 /* JsonSerializer.swift */,
+				0CD98BC11EE032D900CBB3EA /* SLP */,
+				0CD98BC01EE032D900CBB3EA /* Products */,
+				4FECF04A10627B88E82BD7BE /* Pods */,
+				1F33D7001ADE01784472BC8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CD98BC01EE032D900CBB3EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD98BBF1EE032D900CBB3EA /* SLP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CD98BC11EE032D900CBB3EA /* SLP */ = {
+			isa = PBXGroup;
+			children = (
+				0CD98BC21EE032D900CBB3EA /* AppDelegate.swift */,
+				0CD98BE21EE042DE00CBB3EA /* Classes */,
+				0CD98BD41EE038BD00CBB3EA /* Search */,
+				0CD98BD51EE038C900CBB3EA /* Shortlist */,
+				0CD98BD61EE038D900CBB3EA /* Saved */,
+				0CD98BD71EE038E100CBB3EA /* More */,
+				0CD98BC41EE032D900CBB3EA /* ViewController.swift */,
+				0CD98BC61EE032D900CBB3EA /* Main.storyboard */,
+				0CD98BC91EE032D900CBB3EA /* Assets.xcassets */,
+				0CD98BCB1EE032D900CBB3EA /* LaunchScreen.storyboard */,
+				0CD98BCE1EE032D900CBB3EA /* Info.plist */,
+				0C0EC0FE1EE560A900CC0AB9 /* SLP-Bridging-Header.h */,
+			);
+			path = SLP;
+			sourceTree = "<group>";
+		};
+		0CD98BD41EE038BD00CBB3EA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC1B1E1EE51F0B0025C72C /* SEARCH.storyboard */,
+				0CD98BD81EE0390400CBB3EA /* SLPSearch.swift */,
+				0C7A8C8B1EF2503700717BB7 /* MainTabBar.swift */,
+				0C58622A1EE80EC5004A7BC6 /* SLPShortListingBy.swift */,
+				0C712B341EE5925D00B7152F /* SLPDetailProperty.swift */,
+				0C8561041EF0F8B200BE9A44 /* SLPViewProfile.swift */,
+				0CB8A8311F02655D00461008 /* SLPWebdata.swift */,
+				0CB8A8331F027AA500461008 /* SLPPropertyListing.swift */,
+				0C7604D31EFA7CC6009C0AFC /* SLPSuburb.swift */,
+				0CD98BE01EE03E8A00CBB3EA /* SLPAdvanceSearch.swift */,
+				0C8663761EE12AE6007347C3 /* SLPPrice.swift */,
+				0C8663781EE17CDE007347C3 /* SLPPropertyType.swift */,
+				0C86637E1EE19900007347C3 /* SLPInspectionsSecheduled.swift */,
+				0C8663801EE19D2C007347C3 /* SLPBedrooms.swift */,
+				0CCC1B1C1EE51CFF0025C72C /* SLPBathrooms.swift */,
+				0CCC1B1A1EE5196F0025C72C /* SLPGarage.swift */,
+				0C4268901EFCE12000649CCC /* SLPLand.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		0CD98BD51EE038C900CBB3EA /* Shortlist */ = {
+			isa = PBXGroup;
+			children = (
+				0CD98BDA1EE0398000CBB3EA /* SLPShortlist.swift */,
+			);
+			name = Shortlist;
+			sourceTree = "<group>";
+		};
+		0CD98BD61EE038D900CBB3EA /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				0CD98BDC1EE039BF00CBB3EA /* SLPSaved.swift */,
+			);
+			name = Saved;
+			sourceTree = "<group>";
+		};
+		0CD98BD71EE038E100CBB3EA /* More */ = {
+			isa = PBXGroup;
+			children = (
+				0CAC12C01EF0202700078755 /* MORE.storyboard */,
+				0CD98BDE1EE039ED00CBB3EA /* SLPMore.swift */,
+				0CAC12C21EF021BF00078755 /* SLPFeedback.swift */,
+				0C70B1681EF3BF5B003E9AD2 /* SLPLoginProfile.swift */,
+				0CF950DA1EF40DD00035B14B /* SLPUserChangePassword.swift */,
+				0C70B16A1EF3D7D2003E9AD2 /* SLPEditLoginProfile.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		0CD98BE21EE042DE00CBB3EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				039E51FB1F013A4900EFDC92 /* ImagePreviewController.swift */,
+				0C7604D51EFA8ACC009C0AFC /* CollectionCell.swift */,
+				0CD98BE31EE0431C00CBB3EA /* SLPCustomCell.swift */,
+				0CE22FA01EFBF8820052BF0D /* SLPCustomeCell1.swift */,
+				0CD98BE51EE045B200CBB3EA /* SLPStructure.swift */,
+				0C7353641EE6C8E00025A8DD /* SLPAllWebservicesList.swift */,
+				0CD98BE71EE0465400CBB3EA /* SLPAllWebservices.swift */,
+				0CD98BE91EE048FA00CBB3EA /* GlobalMethods.swift */,
+				0CAC12BE1EEFA92D00078755 /* AdvanceSearchModel.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1F33D7001ADE01784472BC8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1326D1EF3F42900DC16D7 /* JsonSerializerSwift.framework */,
+				0CC9BC1F1EEE53BA00CB1B67 /* MapKit.framework */,
+				CD03978EF6A694F20CEC952E /* Pods_SLP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FECF04A10627B88E82BD7BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8DBE3F3E1B5CEEFBAF1ED /* Pods-SLP.debug.xcconfig */,
+				C02DFF7F7F2DB0E2199C381A /* Pods-SLP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CD98BBE1EE032D900CBB3EA /* SLP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD98BD11EE032D900CBB3EA /* Build configuration list for PBXNativeTarget "SLP" */;
+			buildPhases = (
+				BBF3D95F26E19D31B20699AE /* [CP] Check Pods Manifest.lock */,
+				0CD98BBB1EE032D900CBB3EA /* Sources */,
+				0CD98BBC1EE032D900CBB3EA /* Frameworks */,
+				0CD98BBD1EE032D900CBB3EA /* Resources */,
+				0DCD6E0BA20F3C6C1C8C74A7 /* [CP] Embed Pods Frameworks */,
+				2EEDC949CBD1CD691DC1C0BB /* [CP] Copy Pods Resources */,
+				0CC398411F0113A800ED747F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLP;
+			productName = SLP;
+			productReference = 0CD98BBF1EE032D900CBB3EA /* SLP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CD98BB71EE032D800CBB3EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "SLP-World";
+				TargetAttributes = {
+					0CD98BBE1EE032D900CBB3EA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YAYB3MNXMR;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0CD98BBA1EE032D900CBB3EA /* Build configuration list for PBXProject "SLP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CD98BB61EE032D800CBB3EA;
+			productRefGroup = 0CD98BC01EE032D900CBB3EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CD98BBE1EE032D900CBB3EA /* SLP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CD98BBD1EE032D900CBB3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD98BCD1EE032D900CBB3EA /* LaunchScreen.storyboard in Resources */,
+				0CAC12C11EF0202700078755 /* MORE.storyboard in Resources */,
+				0CD98BCA1EE032D900CBB3EA /* Assets.xcassets in Resources */,
+				0CCC1B1F1EE51F0B0025C72C /* SEARCH.storyboard in Resources */,
+				0CD98BC81EE032D900CBB3EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DCD6E0BA20F3C6C1C8C74A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLP/Pods-SLP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EEDC949CBD1CD691DC1C0BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLP/Pods-SLP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF3D95F26E19D31B20699AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD98BBB1EE032D900CBB3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7353651EE6C8E00025A8DD /* SLPAllWebservicesList.swift in Sources */,
+				0C70B16B1EF3D7D2003E9AD2 /* SLPEditLoginProfile.swift in Sources */,
+				0CCC1B1B1EE5196F0025C72C /* SLPGarage.swift in Sources */,
+				0CD98BE41EE0431C00CBB3EA /* SLPCustomCell.swift in Sources */,
+				0CAC12BF1EEFA92D00078755 /* AdvanceSearchModel.swift in Sources */,
+				0CD98BDB1EE0398000CBB3EA /* SLPShortlist.swift in Sources */,
+				0C7604D61EFA8ACC009C0AFC /* CollectionCell.swift in Sources */,
+				0C70B1671EF3BBAA003E9AD2 /* UIViewController+HUD.swift in Sources */,
+				0CD98BE11EE03E8A00CBB3EA /* SLPAdvanceSearch.swift in Sources */,
+				0CD98BE61EE045B200CBB3EA /* SLPStructure.swift in Sources */,
+				0CD98BE81EE0465400CBB3EA /* SLPAllWebservices.swift in Sources */,
+				0CAC12C31EF021BF00078755 /* SLPFeedback.swift in Sources */,
+				0CB8A8321F02655D00461008 /* SLPWebdata.swift in Sources */,
+				0CB8A8341F027AA500461008 /* SLPPropertyListing.swift in Sources */,
+				0CF950DB1EF40DD00035B14B /* SLPUserChangePassword.swift in Sources */,
+				0C8663811EE19D2C007347C3 /* SLPBedrooms.swift in Sources */,
+				0C8663791EE17CDE007347C3 /* SLPPropertyType.swift in Sources */,
+				0CD98BC51EE032D900CBB3EA /* ViewController.swift in Sources */,
+				0CE22FA11EFBF8820052BF0D /* SLPCustomeCell1.swift in Sources */,
+				0C7A8C8C1EF2503700717BB7 /* MainTabBar.swift in Sources */,
+				039E51FC1F013A4900EFDC92 /* ImagePreviewController.swift in Sources */,
+				0C712B351EE5925D00B7152F /* SLPDetailProperty.swift in Sources */,
+				0C86637F1EE19900007347C3 /* SLPInspectionsSecheduled.swift in Sources */,
+				0CD98BEA1EE048FA00CBB3EA /* GlobalMethods.swift in Sources */,
+				0C8663771EE12AE6007347C3 /* SLPPrice.swift in Sources */,
+				0C58622B1EE80EC5004A7BC6 /* SLPShortListingBy.swift in Sources */,
+				0CCC1B1D1EE51CFF0025C72C /* SLPBathrooms.swift in Sources */,
+				0C7604D41EFA7CC6009C0AFC /* SLPSuburb.swift in Sources */,
+				0C8561051EF0F8B200BE9A44 /* SLPViewProfile.swift in Sources */,
+				0C4268911EFCE12000649CCC /* SLPLand.swift in Sources */,
+				0CD98BDD1EE039BF00CBB3EA /* SLPSaved.swift in Sources */,
+				0CD132711EF3F43900DC16D7 /* JsonSerializer.swift in Sources */,
+				0CD98BC31EE032D900CBB3EA /* AppDelegate.swift in Sources */,
+				0C70B1691EF3BF5B003E9AD2 /* SLPLoginProfile.swift in Sources */,
+				0CD98BDF1EE039ED00CBB3EA /* SLPMore.swift in Sources */,
+				0CD98BD91EE0390400CBB3EA /* SLPSearch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CD98BC61EE032D900CBB3EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD98BC71EE032D900CBB3EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CD98BCB1EE032D900CBB3EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD98BCC1EE032D900CBB3EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CD98BCF1EE032D900CBB3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CD98BD01EE032D900CBB3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CD98BD21EE032D900CBB3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB8DBE3F3E1B5CEEFBAF1ED /* Pods-SLP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = YAYB3MNXMR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SLP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retptyltd.SLP.SLP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SLP/SLP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0CD98BD31EE032D900CBB3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02DFF7F7F2DB0E2199C381A /* Pods-SLP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = YAYB3MNXMR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SLP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retptyltd.SLP.SLP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SLP/SLP-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD98BBA1EE032D900CBB3EA /* Build configuration list for PBXProject "SLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD98BCF1EE032D900CBB3EA /* Debug */,
+				0CD98BD01EE032D900CBB3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD98BD11EE032D900CBB3EA /* Build configuration list for PBXNativeTarget "SLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD98BD21EE032D900CBB3EA /* Debug */,
+				0CD98BD31EE032D900CBB3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CD98BB71EE032D800CBB3EA /* Project object */;
+}
